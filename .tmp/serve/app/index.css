@@ -1,0 +1,129 @@
+/* Do not remove the comments below. It's the markers used by wiredep to inject
+   sass dependencies when defined in the bower.json of your dependencies */
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+body {
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  background-color: #222; }
+  .navbar > a {
+    float: left;
+    color: lightgrey;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    height: 50px; }
+  .navbar ul {
+    float: left;
+    padding: 0;
+    margin: 0; }
+    .navbar ul li {
+      float: left;
+      position: relative;
+      display: block; }
+      .navbar ul li a {
+        color: white;
+        position: relative;
+        display: block;
+        padding: 15px;
+        line-height: 20px; }
+      .navbar ul li.active a {
+        background-color: black; }
+
+.jumbotron {
+  padding: 60px;
+  margin-bottom: 30px;
+  background-color: gainsboro;
+  border-radius: 6px;
+  text-align: center; }
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  color: white;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px; }
+
+.col {
+  float: left;
+  width: 33.33%;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box; }
+  .col .thumbnail {
+    height: 200px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    margin-bottom: 20px; }
+    .col .thumbnail .caption {
+      padding: 9px; }
+    .col .thumbnail img.pull-right {
+      width: 50px; }
+
+.pull-right {
+  float: right; }
+
+hr {
+  clear: both; }
+
+/* Do not remove the comments below. It's the markers used by gulp-inject to inject
+   all your sass files automatically */
+.acme-malarkey {
+  text-transform: capitalize;
+  color: #cb3837; }
+  .acme-malarkey:after {
+    -webkit-animation: cursor-blink 0.4s linear infinite;
+            animation: cursor-blink 0.4s linear infinite;
+    content: "|";
+    color: #cb3837; }
+
+@-webkit-keyframes cursor-blink {
+  1% {
+    opacity: 0; }
+  40% {
+    opacity: 0; }
+  60% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+@keyframes cursor-blink {
+  1% {
+    opacity: 0; }
+  40% {
+    opacity: 0; }
+  60% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+.acme-navbar-text {
+  color: white; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LnNjc3MiLCJjb21wb25lbnRzL21hbGFya2V5L21hbGFya2V5LnNjc3MiLCJzdHlsZXNoZWV0cy9wYXJ0aWFscy9uYXZiYXIuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTsyRUFDMkU7QUFJM0U7RUFDRSxnQkFBZTtFQUNmLGlCQUFnQjtFQUNoQixZQUFXO0VBQ1gsaUJBQWdCLEVBQ2pCOztBQUVEO0VBQ0UsVUFBUyxFQUNWOztBQUVEO0VBQ0Usc0JBQXFCLEVBQ3RCOztBQUVEO0VBQ0UsY0FBYTtFQUNiLG1CQUFrQjtFQUNsQixrQkFBaUI7RUFDakIsbUJBQWtCO0VBQ2xCLG9CQUFtQixFQUNwQjs7QUFFRDtFQUNFLG1CQUFrQjtFQUNsQixpQkFBZ0I7RUFDaEIsb0JBQW1CO0VBQ25CLHVCQUFzQixFQWlDdkI7RUFyQ0Q7SUFPSSxZQUFXO0lBQ1gsaUJBQWdCO0lBQ2hCLG1CQUFrQjtJQUNsQixnQkFBZTtJQUNmLGtCQUFpQjtJQUNqQixhQUFZLEVBQ2I7RUFiSDtJQWdCSSxZQUFXO0lBQ1gsV0FBVTtJQUNWLFVBQVMsRUFrQlY7SUFwQ0g7TUFxQk0sWUFBVztNQUNYLG1CQUFrQjtNQUNsQixlQUFjLEVBWWY7TUFuQ0w7UUEwQlEsYUFBWTtRQUNaLG1CQUFrQjtRQUNsQixlQUFjO1FBQ2QsY0FBYTtRQUNiLGtCQUFpQixFQUNsQjtNQS9CUDtRQWlDUSx3QkFBdUIsRUFDeEI7O0FBS1A7RUFDRSxjQUFhO0VBQ2Isb0JBQW1CO0VBQ25CLDRCQUEyQjtFQUMzQixtQkFBa0I7RUFDbEIsbUJBQWtCLEVBQ25COztBQUVEO0VBQ0Usc0JBQXFCO0VBQ3JCLG1CQUFrQjtFQUNsQix1QkFBc0I7RUFDdEIsZ0JBQWU7RUFDZiw4QkFBNkI7RUFDN0IsYUFBWTtFQUNaLDBCQUF5QjtFQUN6QixzQkFBcUI7RUFDckIsbUJBQWtCO0VBQ2xCLGdCQUFlO0VBQ2Ysa0JBQWlCO0VBQ2pCLG1CQUFrQixFQUNuQjs7QUFFRDtFQUNFLFlBQVc7RUFDWCxjQUFhO0VBQ2IsbUJBQWtCO0VBQ2xCLG1CQUFrQjtFQUNsQixvQkFBbUI7RUFDbkIsdUJBQXNCLEVBZ0J2QjtFQXRCRDtJQVNJLGNBQWE7SUFDYiw0QkFBMkI7SUFDM0IsbUJBQWtCO0lBQ2xCLG9CQUFtQixFQVNwQjtJQXJCSDtNQWVNLGFBQVksRUFDYjtJQWhCTDtNQW1CTSxZQUFXLEVBQ1o7O0FBSUw7RUFDRSxhQUFZLEVBQ2I7O0FBRUQ7RUFDRSxZQUFXLEVBQ1o7O0FBRUQ7dUNBQ3VDO0FDM0h2QztFQUNFLDJCQUEwQjtFQUMxQixlQUFjLEVBT2Y7RUFURDtJQUtJLHFEQUE0QztZQUE1Qyw2Q0FBNEM7SUFDNUMsYUFBWTtJQUNaLGVBQWMsRUFDZjs7QUFHSDtFQUNFO0lBQ0UsV0FBVSxFQUFBO0VBRVo7SUFDRSxXQUFVLEVBQUE7RUFFWjtJQUNFLFdBQVUsRUFBQTtFQUVaO0lBQ0UsV0FBVSxFQUFBLEVBQUE7O0FBWGQ7RUFDRTtJQUNFLFdBQVUsRUFBQTtFQUVaO0lBQ0UsV0FBVSxFQUFBO0VBRVo7SUFDRSxXQUFVLEVBQUE7RUFFWjtJQUNFLFdBQVUsRUFBQSxFQUFBOztBQ3RCZDtFQUNFLGFBQVksRUFDYiIsImZpbGUiOiJpbmRleC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBEbyBub3QgcmVtb3ZlIHRoZSBjb21tZW50cyBiZWxvdy4gSXQncyB0aGUgbWFya2VycyB1c2VkIGJ5IHdpcmVkZXAgdG8gaW5qZWN0XG4gICBzYXNzIGRlcGVuZGVuY2llcyB3aGVuIGRlZmluZWQgaW4gdGhlIGJvd2VyLmpzb24gb2YgeW91ciBkZXBlbmRlbmNpZXMgKi9cbi8vIGJvd2VyOnNjc3Ncbi8vIGVuZGJvd2VyXG5cbi5icm93c2VoYXBweSB7XG4gIG1hcmdpbjogMC4yZW0gMDtcbiAgYmFja2dyb3VuZDogI2NjYztcbiAgY29sb3I6ICMwMDA7XG4gIHBhZGRpbmc6IDAuMmVtIDA7XG59XG5cbmJvZHkge1xuICBtYXJnaW46IDA7XG59XG5cbmEge1xuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG59XG5cbi5jb250YWluZXIge1xuICB3aWR0aDogMTE3MHB4O1xuICBtYXJnaW4tcmlnaHQ6IGF1dG87XG4gIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICBwYWRkaW5nLWxlZnQ6IDE1cHg7XG4gIHBhZGRpbmctcmlnaHQ6IDE1cHg7XG59XG5cbi5uYXZiYXIge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIG1pbi1oZWlnaHQ6IDUwcHg7XG4gIG1hcmdpbi1ib3R0b206IDIwcHg7XG4gIGJhY2tncm91bmQtY29sb3I6ICMyMjI7XG5cbiAgJj5hIHtcbiAgICBmbG9hdDogbGVmdDtcbiAgICBjb2xvcjogbGlnaHRncmV5O1xuICAgIHBhZGRpbmc6IDE1cHggMTVweDtcbiAgICBmb250LXNpemU6IDE4cHg7XG4gICAgbGluZS1oZWlnaHQ6IDIwcHg7XG4gICAgaGVpZ2h0OiA1MHB4O1xuICB9XG5cbiAgdWwge1xuICAgIGZsb2F0OiBsZWZ0O1xuICAgIHBhZGRpbmc6IDA7XG4gICAgbWFyZ2luOiAwO1xuXG4gICAgbGkge1xuICAgICAgZmxvYXQ6IGxlZnQ7XG4gICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICBkaXNwbGF5OiBibG9jaztcblxuICAgICAgYSB7XG4gICAgICAgIGNvbG9yOiB3aGl0ZTtcbiAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgICBkaXNwbGF5OiBibG9jaztcbiAgICAgICAgcGFkZGluZzogMTVweDtcbiAgICAgICAgbGluZS1oZWlnaHQ6IDIwcHg7XG4gICAgICB9XG4gICAgICAmLmFjdGl2ZSBhIHtcbiAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogYmxhY2s7XG4gICAgICB9XG4gICAgfVxuICB9XG59XG5cbi5qdW1ib3Ryb24ge1xuICBwYWRkaW5nOiA2MHB4O1xuICBtYXJnaW4tYm90dG9tOiAzMHB4O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiBnYWluc2Jvcm87XG4gIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuXG4uYnRuIHtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XG4gIGN1cnNvcjogcG9pbnRlcjtcbiAgYm9yZGVyOiAxcHggc29saWQgdHJhbnNwYXJlbnQ7XG4gIGNvbG9yOiB3aGl0ZTtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzVjYjg1YztcbiAgYm9yZGVyLWNvbG9yOiAjNGNhZTRjO1xuICBwYWRkaW5nOiAxMHB4IDE2cHg7XG4gIGZvbnQtc2l6ZTogMThweDtcbiAgbGluZS1oZWlnaHQ6IDEuMzM7XG4gIGJvcmRlci1yYWRpdXM6IDZweDtcbn1cblxuLmNvbCB7XG4gIGZsb2F0OiBsZWZ0O1xuICB3aWR0aDogMzMuMzMlO1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIHBhZGRpbmctbGVmdDogMTVweDtcbiAgcGFkZGluZy1yaWdodDogMTVweDtcbiAgYm94LXNpemluZzogYm9yZGVyLWJveDtcblxuICAudGh1bWJuYWlsIHtcbiAgICBoZWlnaHQ6IDIwMHB4O1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIGxpZ2h0Z3JleTtcbiAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgbWFyZ2luLWJvdHRvbTogMjBweDtcblxuICAgIC5jYXB0aW9uIHtcbiAgICAgIHBhZGRpbmc6IDlweDtcbiAgICB9XG5cbiAgICBpbWcucHVsbC1yaWdodCB7XG4gICAgICB3aWR0aDogNTBweDtcbiAgICB9XG4gIH1cbn1cblxuLnB1bGwtcmlnaHQge1xuICBmbG9hdDogcmlnaHQ7XG59XG5cbmhyIHtcbiAgY2xlYXI6IGJvdGg7XG59XG5cbi8qIERvIG5vdCByZW1vdmUgdGhlIGNvbW1lbnRzIGJlbG93LiBJdCdzIHRoZSBtYXJrZXJzIHVzZWQgYnkgZ3VscC1pbmplY3QgdG8gaW5qZWN0XG4gICBhbGwgeW91ciBzYXNzIGZpbGVzIGF1dG9tYXRpY2FsbHkgKi9cbi8vIGluamVjdG9yXG5AaW1wb3J0IFwiY29tcG9uZW50cy9tYWxhcmtleS9tYWxhcmtleS5zY3NzXCI7XG5AaW1wb3J0IFwic3R5bGVzaGVldHMvcGFydGlhbHMvbmF2YmFyLnNjc3NcIjtcbi8vIGVuZGluamVjdG9yXG4iLCIuYWNtZS1tYWxhcmtleSB7XG4gIHRleHQtdHJhbnNmb3JtOiBjYXBpdGFsaXplO1xuICBjb2xvcjogI2NiMzgzNztcblxuICAmOmFmdGVyIHtcbiAgICBhbmltYXRpb246IGN1cnNvci1ibGluayAwLjRzIGxpbmVhciBpbmZpbml0ZTtcbiAgICBjb250ZW50OiBcInxcIjtcbiAgICBjb2xvcjogI2NiMzgzNztcbiAgfVxufVxuXG5Aa2V5ZnJhbWVzIGN1cnNvci1ibGluayB7XG4gIDElIHtcbiAgICBvcGFjaXR5OiAwO1xuICB9XG4gIDQwJSB7XG4gICAgb3BhY2l0eTogMDtcbiAgfVxuICA2MCUge1xuICAgIG9wYWNpdHk6IDE7XG4gIH1cbiAgMTAwJSB7XG4gICAgb3BhY2l0eTogMTtcbiAgfVxufVxuIiwiLmFjbWUtbmF2YmFyLXRleHR7XG4gIGNvbG9yOiB3aGl0ZTtcbn1cbiJdfQ== */
