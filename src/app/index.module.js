@@ -6,7 +6,6 @@
     "ngSanitize",
     "ngMessages",
     "ngResource",
-    "ngRoute",
-    "toastr"
+    "ngRoute"
   ]);
 })();

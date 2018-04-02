@@ -2,8 +2,5 @@
 (function() {
   "use strict";
 
-  angular
-    .module("websocketLoadTester")
-    .constant("malarkey", malarkey)
-    .constant("moment", moment);
+  angular.module("websocketLoadTester").constant("moment", moment);
 })();
