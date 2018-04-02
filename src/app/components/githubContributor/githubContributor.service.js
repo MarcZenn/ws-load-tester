@@ -1,13 +1,13 @@
 (function() {
-  'use strict';
+  "use strict";
 
-  angular
-    .module('openWifi')
-    .factory('githubContributor', githubContributor);
+  angular.module("websocketLoadTester").factory("githubContributor", githubContributor);
 
   /** @ngInject */
   function githubContributor($log, $http) {
-    var apiHost = 'https://api.github.com/repos/Swiip/generator-gulp-angular';
+    // TODO:: rename, repurpose & prune - consider this for websocket service
+
+    var apiHost = "https://api.github.com/repos/Swiip/generator-gulp-angular";
 
     var service = {
       apiHost: apiHost,
@@ -21,7 +21,8 @@
         limit = 30;
       }
 
-      return $http.get(apiHost + '/contributors?per_page=' + limit)
+      return $http
+        .get(apiHost + "/contributors?per_page=" + limit)
         .then(getContributorsComplete)
         .catch(getContributorsFailed);
 
@@ -30,7 +31,7 @@
       }
 
       function getContributorsFailed(error) {
-        $log.error('XHR Failed for getContributors.\n' + angular.toJson(error.data, true));
+        $log.error("XHR Failed for getContributors.\n" + angular.toJson(error.data, true));
       }
     }
   }

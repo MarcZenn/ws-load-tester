@@ -4,7 +4,7 @@ Version 0
 
 # What Is It?
 
-Test your shit
+Test & measure concurrent websockets load.
 
 # Requirements
 
@@ -23,8 +23,9 @@ out to you if we'd like to incorporate your work. :)
 
 # Quickstart
 
-Once you have the repo in your local machine simply run the following commands:
+Once you have the repo in your local machine simply run the following commands (make sure you're using node version 6.9.2 or later):
 
+* run `nvm use 8.5.0` if necessary.
 * run `npm install` to install the required dependencies and devdependencies.
 * run `bower install` to install bower
 * run `gulp serve` to launch a browser sync server on your source files

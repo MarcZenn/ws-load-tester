@@ -1,14 +1,10 @@
 (function() {
-  'use strict';
+  "use strict";
 
-  angular
-    .module('openWifi')
-    .run(runBlock);
+  angular.module("websocketLoadTester").run(runBlock);
 
   /** @ngInject */
   function runBlock($log) {
-
-    $log.debug('runBlock end');
+    $log.debug("runBlock end");
   }
-
 })();

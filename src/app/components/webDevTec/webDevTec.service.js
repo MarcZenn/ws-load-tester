@@ -1,61 +1,62 @@
 (function() {
-  'use strict';
+  "use strict";
 
-  angular
-      .module('openWifi')
-      .service('webDevTec', webDevTec);
+  angular.module("websocketLoadTester").service("webDevTec", webDevTec);
 
   /** @ngInject */
   function webDevTec() {
     var data = [
       {
-        'title': 'AngularJS',
-        'url': 'https://angularjs.org/',
-        'description': 'HTML enhanced for web apps!',
-        'logo': 'angular.png'
+        title: "AngularJS",
+        url: "https://angularjs.org/",
+        description: "HTML enhanced for web apps!",
+        logo: "angular.png"
       },
       {
-        'title': 'BrowserSync',
-        'url': 'http://browsersync.io/',
-        'description': 'Time-saving synchronised browser testing.',
-        'logo': 'browsersync.png'
+        title: "BrowserSync",
+        url: "http://browsersync.io/",
+        description: "Time-saving synchronised browser testing.",
+        logo: "browsersync.png"
       },
       {
-        'title': 'GulpJS',
-        'url': 'http://gulpjs.com/',
-        'description': 'The streaming build system.',
-        'logo': 'gulp.png'
+        title: "GulpJS",
+        url: "http://gulpjs.com/",
+        description: "The streaming build system.",
+        logo: "gulp.png"
       },
       {
-        'title': 'Jasmine',
-        'url': 'http://jasmine.github.io/',
-        'description': 'Behavior-Driven JavaScript.',
-        'logo': 'jasmine.png'
+        title: "Jasmine",
+        url: "http://jasmine.github.io/",
+        description: "Behavior-Driven JavaScript.",
+        logo: "jasmine.png"
       },
       {
-        'title': 'Karma',
-        'url': 'http://karma-runner.github.io/',
-        'description': 'Spectacular Test Runner for JavaScript.',
-        'logo': 'karma.png'
+        title: "Karma",
+        url: "http://karma-runner.github.io/",
+        description: "Spectacular Test Runner for JavaScript.",
+        logo: "karma.png"
       },
       {
-        'title': 'Protractor',
-        'url': 'https://github.com/angular/protractor',
-        'description': 'End to end test framework for AngularJS applications built on top of WebDriverJS.',
-        'logo': 'protractor.png'
+        title: "Protractor",
+        url: "https://github.com/angular/protractor",
+        description:
+          "End to end test framework for AngularJS applications built on top of WebDriverJS.",
+        logo: "protractor.png"
       },
       {
-        'title': 'Sass (Node)',
-        'url': 'https://github.com/sass/node-sass',
-        'description': 'Node.js binding to libsass, the C version of the popular stylesheet preprocessor, Sass.',
-        'logo': 'node-sass.png'
+        title: "Sass (Node)",
+        url: "https://github.com/sass/node-sass",
+        description:
+          "Node.js binding to libsass, the C version of the popular stylesheet preprocessor, Sass.",
+        logo: "node-sass.png"
       },
       {
-        'key': 'jade',
-        'title': 'Jade',
-        'url': 'http://jade-lang.com/',
-        'description': 'Jade is a high performance template engine heavily influenced by Haml and implemented with JavaScript for node.',
-        'logo': 'jade.png'
+        key: "jade",
+        title: "Jade",
+        url: "http://jade-lang.com/",
+        description:
+          "Jade is a high performance template engine heavily influenced by Haml and implemented with JavaScript for node.",
+        logo: "jade.png"
       }
     ];
 
@@ -65,5 +66,4 @@
       return data;
     }
   }
-
 })();

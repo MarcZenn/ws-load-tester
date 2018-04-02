@@ -1,10 +1,9 @@
 /* global malarkey:false, moment:false */
 (function() {
-  'use strict';
+  "use strict";
 
   angular
-    .module('openWifi')
-    .constant('malarkey', malarkey)
-    .constant('moment', moment);
-
+    .module("websocketLoadTester")
+    .constant("malarkey", malarkey)
+    .constant("moment", moment);
 })();

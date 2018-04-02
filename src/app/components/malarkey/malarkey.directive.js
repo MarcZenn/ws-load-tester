@@ -1,21 +1,19 @@
 (function() {
-  'use strict';
+  "use strict";
 
-  angular
-    .module('openWifi')
-    .directive('acmeMalarkey', acmeMalarkey);
+  angular.module("websocketLoadTester").directive("acmeMalarkey", acmeMalarkey);
 
   /** @ngInject */
   function acmeMalarkey(malarkey) {
     var directive = {
-      restrict: 'E',
+      restrict: "E",
       scope: {
-        extraValues: '='
+        extraValues: "="
       },
-      template: '&nbsp;',
+      template: "&nbsp;",
       link: linkFunc,
       controller: MalarkeyController,
-      controllerAs: 'vm'
+      controllerAs: "vm"
     };
 
     return directive;
@@ -27,22 +25,28 @@
         deleteSpeed: 40,
         pauseDelay: 800,
         loop: true,
-        postfix: ' '
+        postfix: " "
       });
 
-      el.addClass('acme-malarkey');
+      el.addClass("acme-malarkey");
 
       angular.forEach(scope.extraValues, function(value) {
-        typist.type(value).pause().delete();
+        typist
+          .type(value)
+          .pause()
+          .delete();
       });
 
-      watcher = scope.$watch('vm.contributors', function() {
+      watcher = scope.$watch("vm.contributors", function() {
         angular.forEach(vm.contributors, function(contributor) {
-          typist.type(contributor.login).pause().delete();
+          typist
+            .type(contributor.login)
+            .pause()
+            .delete();
         });
       });
 
-      scope.$on('$destroy', function () {
+      scope.$on("$destroy", function() {
         watcher();
       });
     }
@@ -57,7 +61,7 @@
 
       function activate() {
         return getContributors().then(function() {
-          $log.info('Activated Contributors View');
+          $log.info("Activated Contributors View");
         });
       }
 
@@ -69,7 +73,5 @@
         });
       }
     }
-
   }
-
 })();

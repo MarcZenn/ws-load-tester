@@ -1,20 +1,18 @@
 (function() {
-  'use strict';
+  "use strict";
 
-  angular
-    .module('openWifi')
-    .directive('acmeNavbar', acmeNavbar);
+  angular.module("websocketLoadTester").directive("globalNavbar", globalNavbar);
 
   /** @ngInject */
-  function acmeNavbar() {
+  function globalNavbar() {
     var directive = {
-      restrict: 'E',
-      templateUrl: 'app/views/partials/navbar.html',
+      restrict: "E",
+      templateUrl: "app/views/partials/globalNavbar/navbar.html",
       scope: {
-          creationDate: '='
+        creationDate: "="
       },
       controller: NavbarController,
-      controllerAs: 'vm',
+      controllerAs: "vm",
       bindToController: true
     };
 
@@ -24,9 +22,7 @@
     function NavbarController(moment) {
       var vm = this;
 
-      // "vm.creation" is avaible by directive option "bindToController: true"
-      vm.relativeDate = moment(vm.creationDate).fromNow();
+      // code
     }
   }
-
 })();
